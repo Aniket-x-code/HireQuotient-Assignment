@@ -21,7 +21,7 @@ const Scroller = () => {
 
   return (
     <div className='mx-28 py-6'>
-      <img className='animation' data-aos="zoom-in" src={fr} alt="img" />
+      <img className='animation shadow-xl rounded-2xl'  data-aos="zoom-in" src={fr} alt="img" />
     </div>
   );
 };
