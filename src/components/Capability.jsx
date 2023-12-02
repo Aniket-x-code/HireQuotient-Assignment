@@ -1,4 +1,7 @@
 import React from 'react'
+import star from '../assets/star.png'
+  
+  
 
 const Capability = () => {
   return (
@@ -20,6 +23,9 @@ const Capability = () => {
         <p className=' text-[#767575] mt-6 pt-4 font-normal text-xl text-center' >
         Don't settle for mediocrity - embrace the future of management <br /> with Manage Wise.
         </p>
+
+        {/* card */}
+       
 
         </div>
 
