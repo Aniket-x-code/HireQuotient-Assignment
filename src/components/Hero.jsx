@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Hero.module.css'
 import icon from '../assets/play.png'
 import Scroller from './Scroller'
 
