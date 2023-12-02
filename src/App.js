@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Capability from './components/Capability';
 import Card from './components/Card';
 import Cardset from './components/Cardset';
+import More from './components/More';
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
       <Header/>
       <Hero/>
       <Capability/>
-        <Card/>
-        <Cardset/>
+      <Card/>
+      <Cardset/>
+      <More/>
     </div>
   );
 }
