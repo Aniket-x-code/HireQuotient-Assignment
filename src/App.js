@@ -8,6 +8,7 @@ import Card from './components/Card';
 import Cardset from './components/Cardset';
 import More from './components/More';
 import Integration from './components/Integration';
+import Faq from './components/Faq';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Cardset/>
       <More/>
       <Integration/>
+      <Faq/>
     </div>
   );
 }
