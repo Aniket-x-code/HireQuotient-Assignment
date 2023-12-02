@@ -7,6 +7,7 @@ import Capability from './components/Capability';
 import Card from './components/Card';
 import Cardset from './components/Cardset';
 import More from './components/More';
+import Integration from './components/Integration';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Card/>
       <Cardset/>
       <More/>
+      <Integration/>
     </div>
   );
 }
