@@ -10,6 +10,7 @@ import More from './components/More';
 import Integration from './components/Integration';
 import Faq from './components/Faq';
 import Pricing from './components/Pricing';
+import Testimonial from './components/Testimonial';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Integration/>
       <Faq/>
       <Pricing/>
+      <Testimonial/>
     </div>
   );
 }
