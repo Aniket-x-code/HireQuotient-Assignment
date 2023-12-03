@@ -9,6 +9,7 @@ import Cardset from './components/Cardset';
 import More from './components/More';
 import Integration from './components/Integration';
 import Faq from './components/Faq';
+import Pricing from './components/Pricing';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <More/>
       <Integration/>
       <Faq/>
+      <Pricing/>
     </div>
   );
 }

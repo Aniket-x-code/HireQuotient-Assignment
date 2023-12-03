@@ -4,7 +4,7 @@ import Accordian from './Accordian'
 const Faq = () => {
   return (
     <>
-    <div class=' ml-8  flex flex-row  py-4  mb-12 '>
+    <div class=' ml-8  flex flex-row  py-4  mb-16 '>
          <div className='basis-1/2'>
             <button class="bg-white ml-16 mt-20 border border-[#E2E8F0] hover:bg-neutral-200 text-purple-600  font-normal py-1 px-4 rounded-xl inline-flex items-left">
             🙋🏽‍♀️&nbsp;&nbsp;<span>FAQ </span>

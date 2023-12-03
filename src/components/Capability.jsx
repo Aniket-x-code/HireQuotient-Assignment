@@ -5,7 +5,7 @@ import star from '../assets/star.png'
 
 const Capability = () => {
   return (
-    <div>
+    <div className='mt-12'>
 
 
     <div class='text-center mt-16 py-4 hidden sm:block'>
