@@ -12,6 +12,7 @@ import Faq from './components/Faq';
 import Pricing from './components/Pricing';
 import Testimonial from './components/Testimonial';
 import Avatarblock from './components/Avatarblock';
+import User from './components/User';
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
       <Faq/>
       <Pricing/>
       <Testimonial/>
-      
+      <User/>
     </div>
   );
 }

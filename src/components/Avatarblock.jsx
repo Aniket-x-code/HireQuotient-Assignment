@@ -2,10 +2,10 @@ import React from 'react'
 
 const Avatarblock = () => {
   return (
-    <div class="flex h-screen items-center justify-center bg-gray-50">
-      <div class="w-full md:w-1/2 rounded-lg bg-white px-8 py-4 shadow-md m-4">
+    <div class=" bg-gradient-to-b from white to-[#FDF2EC] py-20 px-20 ">
+      <div class="w-full rounded-lg bg-white px-8 py-4 ">
         <div class="px-1 py-4">
-          <h3 class="font-bold text-2xl font-sans">Share with others</h3>
+          <h3 class="font-bold  text-2xl pb-8 font-sans"> <span className='text-violet-500 '>200+</span> Happy users </h3>
         </div>
           <ul class="grid grid-cols-4 gap-2 px-1">
             <li class="flex items-center flex-col">
