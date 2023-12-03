@@ -12,7 +12,7 @@ const Accordian = () => {
 	<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
 		<div class="py-5">
 			<details class="group">
-				<summary class="flex justify-between hover:scale-110 hover:text-violet-400 items-center font-medium cursor-pointer list-none">
+				<summary class="flex justify-between hover:scale-110 transition duration-500 hover:text-violet-400 items-center font-medium cursor-pointer list-none">
 					<span> What is Manage Wise and what does it offer ?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -26,7 +26,7 @@ const Accordian = () => {
 		</div>
 		<div class="py-5">
 			<details class="group">
-				<summary class="flex justify-between items-center hover:scale-110 hover:text-violet-400 font-medium cursor-pointer list-none">
+				<summary class="flex justify-between items-center transition duration-500 hover:scale-110 hover:text-violet-400 font-medium cursor-pointer list-none">
 					<span> Is Manage Wise suitable for small buissness and larger enterprise alike ?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -40,7 +40,7 @@ const Accordian = () => {
 		</div>
 		<div class="py-5">
 			<details class="group">
-				<summary class="flex justify-between items-center font-medium hover:scale-110 hover:text-violet-400 cursor-pointer list-none">
+				<summary class="flex justify-between items-center transition duration-500 font-medium hover:scale-110 hover:text-violet-400 cursor-pointer list-none">
 					<span>Can I access Manage Wise from different devices and platforms ?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -54,7 +54,7 @@ const Accordian = () => {
 		</div>
 		<div class="py-5">
 			<details class="group">
-				<summary class="flex  hover:text-violet-400 hover:scale-110  justify-between items-center font-medium cursor-pointer list-none">
+				<summary class="flex  hover:text-violet-400 hover:scale-110 transition duration-500  justify-between items-center font-medium cursor-pointer list-none">
 					<span> What kind of support options do you offer to users ?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -68,7 +68,7 @@ const Accordian = () => {
 		</div>
 		<div class="py-5">
 			<details class="group">
-				<summary class="flex hover:text-violet-400 hover:scale-110 justify-between items-center font-medium cursor-pointer list-none">
+				<summary class="flex hover:text-violet-400 hover:scale-110 transition duration-500 justify-between items-center font-medium cursor-pointer list-none">
 					<span> How secure is data stored within Manage Wise ?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
