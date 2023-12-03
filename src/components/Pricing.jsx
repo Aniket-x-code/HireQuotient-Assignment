@@ -1,4 +1,5 @@
 import React from 'react'
+import Pricecard from './Pricecard'
 
 const Pricing = () => {
   return (
@@ -18,6 +19,7 @@ const Pricing = () => {
             At Manage Wise, we believe in providing you with <br /> pricing plans that adapt to your unique needs.
             </p>
 
+            <Pricecard/>
     </div>
   )
 }
