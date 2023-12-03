@@ -9,3 +9,7 @@
           image-rendering:auto;
 
 }
+html
+{
+  scroll-behavior: smooth;
+}

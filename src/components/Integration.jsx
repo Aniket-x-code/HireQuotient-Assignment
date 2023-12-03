@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import figma from '../assets/fif.png'
 
 const Integration = () => {
+
+  const [pos , setPos] = useState(0);
+
+ useEffect(()=> {
+  window.addEventListener('scroll', () => {
+    console.log(window.scrollY);
+    setPos(window.scrollY-3800);
+  })
+ },[])
+ 
   return (
+    
     <div className='bg-[#1C1C1C]'>
             
         <div class='text-center ml-8   py-4 hidden sm:block'>
@@ -15,7 +27,9 @@ const Integration = () => {
             </h1>
 
         <p className=' text-[#767575] mt-6 pt-4 mb-8 font-normal text-xl text-center'>Seamlessly connect and amplify your workflow <br />by enabling integration with a diverse array of <br />widely-used tools and platforms.</p>
-
+          
+          <img src={figma} alt=""  style={{bottom:`${pos}px`,position:'relative', color:'white' ,height:'50px', width:'50px', marginLeft:'200px' }}/>
+          
         <img className='h-auto mx-auto max-w-lg' src="https://framerusercontent.com/images/sQd7MkwgkdQRRQ1a99k5Z1zLfA.png?scale-down-to=1024" alt="" />
         </div>
     </div>
