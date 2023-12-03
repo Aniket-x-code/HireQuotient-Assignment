@@ -6,7 +6,7 @@ const Pricecard = () => {
     <div class="bg-white  py-8 mt-8 px-24  items-center justify-center">
       <div class="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-6">
     
-        <div class="bg-[#EDEDFA] rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+        <div class="bg-[#EDEDFA] rounded-lg overflow-hidden shadow-lg transition-transform transform transition duration-500 hover:scale-105">
           <div class="p-1 bg-blue-200">
           </div>
           <div class="p-8">
@@ -58,7 +58,7 @@ const Pricecard = () => {
         </div>
     
    {/* {     <!-- Pricing Card 2 -->} */}
-        <div class="bg-black text-white rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+        <div class="bg-black text-white rounded-lg overflow-hidden shadow-lg transition duration-500 transition-transform transform hover:scale-105">
           <div class="p-1 bg-[#FE8162]">
           </div>
           <div class="p-8">
@@ -118,14 +118,14 @@ const Pricecard = () => {
           </div>
           <div class="p-4">
             <button
-              class="w-full bg-[#FE8162] text-white rounded-full px-4 py-2 hover:bg-green-700 focus:outline-none focus:shadow-outline-green active:bg-green-800">
+              class="w-full bg-[#FE8162] text-white rounded-full px-4 py-2 hover:bg-green-400 focus:outline-none focus:shadow-outline-green active:bg-green-800">
               Get Started
             </button>
           </div>
         </div>
     
     {/* {     <!-- Pricing Card 3 -->} */}
-        <div class="bg-[#EDEDFA] rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+        <div class="bg-[#EDEDFA] rounded-lg overflow-hidden shadow-lg transition-transform  duration-500 transform hover:scale-105">
           <div class="p-1 bg-purple-200">
           </div>
           <div class="p-8">

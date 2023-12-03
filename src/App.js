@@ -11,6 +11,7 @@ import Integration from './components/Integration';
 import Faq from './components/Faq';
 import Pricing from './components/Pricing';
 import Testimonial from './components/Testimonial';
+import Avatarblock from './components/Avatarblock';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Faq/>
       <Pricing/>
       <Testimonial/>
+      
     </div>
   );
 }
