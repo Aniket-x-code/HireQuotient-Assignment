@@ -50,10 +50,12 @@ const Pricecard = () => {
             </ul>
           </div>
           <div class="p-4 mt-16">
+            <a href="https://templatesunit.lemonsqueezy.com/checkout">
             <button
               class="w-full bg-blue-500 text-white rounded-full px-4 py-2 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
               Get Started
             </button>
+            </a>
           </div>
         </div>
     
@@ -117,10 +119,12 @@ const Pricecard = () => {
             </ul>
           </div>
           <div class="p-4">
+          <a href="https://templatesunit.lemonsqueezy.com/checkout">
             <button
               class="w-full bg-[#FE8162] text-white rounded-full px-4 py-2 hover:bg-green-400 focus:outline-none focus:shadow-outline-green active:bg-green-800">
               Get Started
             </button>
+            </a>
           </div>
         </div>
     
@@ -181,10 +185,12 @@ const Pricecard = () => {
             </ul>
           </div>
           <div class="p-4 mt-8">
+          <a href="https://templatesunit.lemonsqueezy.com/checkout">
             <button
               class="w-full bg-purple-500 text-white rounded-full px-4 py-2 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple active:bg-purple-800">
                Get Started
             </button>
+            </a>
           </div>
         </div>
     

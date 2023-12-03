@@ -32,16 +32,21 @@ const Hero = () => {
 
       <div class="max-w-xl px-4 pb-14 mx-auto text-left md:max-w-none md:text-center" >
             <div className='flex justify-center gap-5'>
-                    <button class="group relative h-14 w-48 overflow-hidden rounded-2xl bg-[#8247FF] text-lg font-bold text-white">
+               <a href="https://templatesunit.lemonsqueezy.com/checkout">   
+                <button class="group relative h-14 w-48 overflow-hidden rounded-2xl bg-[#8247FF] text-lg font-bold text-white">
                         Get Started
                         <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
                     </button>
-                    <button class="group relative h-14 w-48 overflow-hidden rounded-2xl bg-white text-lg font-bold text-black flex items-center justify-center ">
+                </a> 
+                <a href=" https://www.youtube.com/">
+                <button class="group relative h-14 w-48 overflow-hidden rounded-2xl bg-white text-lg font-bold text-black flex items-center justify-center ">
                         Watch demo <img src={icon} alt="" />
                         <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
                     </button>
+                </a>
+                    
              </div>
-
+            
       </div>
 
     </section>

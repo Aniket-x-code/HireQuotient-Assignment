@@ -5,10 +5,7 @@ import github from '../assets/gith.png'
 import slack from '../assets/slack.png'
 import vimeo from '../assets/vimeo.png'
 import zoom from '../assets/zoom.png'
-import framer from '../assets/framer.png'
-import dropbox from '../assets/drop.png'
-import notion from '../assets/notio.png'
-import gmail from '../assets/gmai.png'
+
 
 const Integration = () => {
 

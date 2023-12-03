@@ -8,7 +8,7 @@ const Capability = () => {
     <div className='mt-12'>
 
 
-    <div class='text-center mt-16 py-4 hidden sm:block'>
+    <div id='cap' class='text-center mt-16 py-4 hidden sm:block'>
           <button class="bg-white border border-[#E2E8F0] hover:bg-neutral-200 text-purple-600  font-normal py-1 px-4 rounded-xl inline-flex items-center">
             🔥
             &nbsp; &nbsp;<span> PREMIER FEATURES </span>
